@@ -391,3 +391,43 @@ body{
 .city-page h2{
     margin-top: 40px;
 }
+
+@media (max-width: 768px){
+
+    .hero-content h1{
+        font-size: 32px;
+    }
+
+    .hero-content p{
+        font-size: 14px;
+    }
+
+    .city-page{
+        padding: 40px 20px;
+    }
+
+    .city-page h1{
+        font-size: 32px;
+    }
+
+    .city-page p{
+        font-size: 16px;
+    }
+
+    .places-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .place-card img{
+        height: 150px;
+    }
+
+    .project-container{
+        flex-direction: column;
+    }
+
+    .project-card{
+        width: 100%;
+    }
+
+}
